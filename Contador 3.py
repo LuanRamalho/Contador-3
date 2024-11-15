@@ -25,7 +25,7 @@ root = tk.Tk()
 root.title("Simple Python Timer")
 root.configure(bg='yellow')
 
-start_button = tk.Button(root, text="Click to start Timer", command=start_timer)
+start_button = tk.Button(root, text="Clique para iniciar o timer", command=start_timer, font=("Arial",12,"bold"), bg="darkblue", fg="white")
 start_button.pack(pady=20)
 
 timer_label = tk.Label(root, text="00:00", font=("Helvetica", 36), bg='yellow', fg='purple')
